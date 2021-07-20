@@ -1,0 +1,17 @@
+body {
+    background: url("https://earthsky.org/upl/2018/06/ocean-apr27-2020-Cidy-Chai-North-Pacific-scaled-e1591491800783.jpeg");
+    background-position: top;
+    background-size: cover;
+}
+.btn:hover {
+    background-color: white !important;
+}
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 48px red;}
+    to{box-shadow: 1px 1px 48px blue;}
+}
